@@ -80,7 +80,7 @@ CHAT HISTORY:
 # --- STREAMLIT UI ---
 
 st.set_page_config(page_title="Conversational Chatbot", page_icon="🤖")
-st.title("🤖Conversational Bot")
+st.title("🤖 Conversational Bot")
 
 if "bot" not in st.session_state:
     with st.spinner("Initializing chatbot... This may take a moment."):
